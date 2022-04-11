@@ -11,6 +11,7 @@ pipeline {
                 sh 'mvn clean'
             }
         }
+      }
       stage("build") {
         agent any
         steps {
@@ -18,6 +19,7 @@ pipeline {
                 sh 'mvn package'
             }
         }
+      }
       stage("test") {
         agent any
         steps {
@@ -25,6 +27,7 @@ pipeline {
                 sh 'mvn test'
             }
         }
+      }
       stage("static analysis") {
         agent any
         steps {
@@ -32,6 +35,7 @@ pipeline {
                 sh 'mvn clean package sonar:sonar'
             }
         }
+      }
         post {
             always {
                 junit testResults: '**/target/surefire-reports/TEST-*.xml', skipPublishingChecks: true, allowEmptyResults: true
