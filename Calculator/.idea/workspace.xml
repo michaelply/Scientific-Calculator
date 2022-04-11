@@ -5,25 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="498e087b-c69e-4a2c-aa1d-357ada1fc161" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/Scientific-Calculator.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Calculator.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/michaelcane/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/michaelcane/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/michaelcane/Commands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/michaelcane/Commands.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/io/michaelcane/CalculatorSpec.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/michaelcane/CalculatorSpec.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/michaelcane/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/michaelcane/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/michaelcane/Calculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/michaelcane/Calculator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/michaelcane/Commands$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/michaelcane/Commands$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/michaelcane/Commands$Command.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/michaelcane/Commands$Command.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/michaelcane/Commands.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/michaelcane/Commands.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/michaelcane/Display.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/michaelcane/Display.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/michaelcane/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/michaelcane/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/io/michaelcane/CalculatorSpec.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/io/michaelcane/CalculatorSpec.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
