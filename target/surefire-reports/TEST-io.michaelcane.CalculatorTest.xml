@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="20" failures="0" name="io.michaelcane.CalculatorSpec" time="0.217" errors="20" skipped="0">
+<testsuite tests="20" failures="0" name="io.michaelcane.CalculatorTest" time="0.217" errors="20" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="18+0"/>
@@ -62,7 +62,7 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase classname="io.michaelcane.CalculatorSpec" name="test$inverseTangent" time="0.022">
+  <testcase classname="io.michaelcane.CalculatorTest" name="test$inverseTangent" time="0.022">
     <error type="java.lang.StackOverflowError">java.lang.StackOverflowError
 	at io.michaelcane.Calculator.&lt;init&gt;(Calculator.java:6)
 	at io.michaelcane.Commands.&lt;init&gt;(Commands.java:5)
@@ -1090,7 +1090,7 @@
 	at io.michaelcane.Commands.&lt;init&gt;(Commands.java:5)
 </error>
   </testcase>
-  <testcase classname="io.michaelcane.CalculatorSpec" name="test$divide" time="0.006">
+  <testcase classname="io.michaelcane.CalculatorTest" name="test$divide" time="0.006">
     <error type="java.lang.StackOverflowError">java.lang.StackOverflowError
 	at io.michaelcane.Calculator.&lt;init&gt;(Calculator.java:6)
 	at io.michaelcane.Commands.&lt;init&gt;(Commands.java:5)
@@ -2118,7 +2118,7 @@
 	at io.michaelcane.Commands.&lt;init&gt;(Commands.java:5)
 </error>
   </testcase>
-  <testcase classname="io.michaelcane.CalculatorSpec" name="test$multiply" time="0.018">
+  <testcase classname="io.michaelcane.CalculatorTest" name="test$multiply" time="0.018">
     <error type="java.lang.StackOverflowError">java.lang.StackOverflowError
 	at io.michaelcane.Calculator.&lt;init&gt;(Calculator.java:6)
 	at io.michaelcane.Commands.&lt;init&gt;(Commands.java:5)
@@ -3146,7 +3146,7 @@
 	at io.michaelcane.Commands.&lt;init&gt;(Commands.java:5)
 </error>
   </testcase>
-  <testcase classname="io.michaelcane.CalculatorSpec" name="test$sin" time="0.013">
+  <testcase classname="io.michaelcane.CalculatorTest" name="test$sin" time="0.013">
     <error type="java.lang.StackOverflowError">java.lang.StackOverflowError
 	at io.michaelcane.Calculator.&lt;init&gt;(Calculator.java:6)
 	at io.michaelcane.Commands.&lt;init&gt;(Commands.java:5)
@@ -4174,7 +4174,7 @@
 	at io.michaelcane.Commands.&lt;init&gt;(Commands.java:5)
 </error>
   </testcase>
-  <testcase classname="io.michaelcane.CalculatorSpec" name="test$sum" time="0.011">
+  <testcase classname="io.michaelcane.CalculatorTest" name="test$sum" time="0.011">
     <error type="java.lang.StackOverflowError">java.lang.StackOverflowError
 	at io.michaelcane.Calculator.&lt;init&gt;(Calculator.java:6)
 	at io.michaelcane.Commands.&lt;init&gt;(Commands.java:5)
@@ -5202,7 +5202,7 @@
 	at io.michaelcane.Commands.&lt;init&gt;(Commands.java:5)
 </error>
   </testcase>
-  <testcase classname="io.michaelcane.CalculatorSpec" name="test$inverseCosin" time="0.01">
+  <testcase classname="io.michaelcane.CalculatorTest" name="test$inverseCosin" time="0.01">
     <error type="java.lang.StackOverflowError">java.lang.StackOverflowError
 	at io.michaelcane.Calculator.&lt;init&gt;(Calculator.java:6)
 	at io.michaelcane.Commands.&lt;init&gt;(Commands.java:5)
@@ -6230,7 +6230,7 @@
 	at io.michaelcane.Commands.&lt;init&gt;(Commands.java:5)
 </error>
   </testcase>
-  <testcase classname="io.michaelcane.CalculatorSpec" name="test$square" time="0.011">
+  <testcase classname="io.michaelcane.CalculatorTest" name="test$square" time="0.011">
     <error type="java.lang.StackOverflowError">java.lang.StackOverflowError
 	at io.michaelcane.Calculator.&lt;init&gt;(Calculator.java:6)
 	at io.michaelcane.Commands.&lt;init&gt;(Commands.java:5)
@@ -7258,7 +7258,7 @@
 	at io.michaelcane.Commands.&lt;init&gt;(Commands.java:5)
 </error>
   </testcase>
-  <testcase classname="io.michaelcane.CalculatorSpec" name="test$invertPositiveAndNegative" time="0.01">
+  <testcase classname="io.michaelcane.CalculatorTest" name="test$invertPositiveAndNegative" time="0.01">
     <error type="java.lang.StackOverflowError">java.lang.StackOverflowError
 	at io.michaelcane.Calculator.&lt;init&gt;(Calculator.java:6)
 	at io.michaelcane.Commands.&lt;init&gt;(Commands.java:5)
@@ -8286,7 +8286,7 @@
 	at io.michaelcane.Commands.&lt;init&gt;(Commands.java:5)
 </error>
   </testcase>
-  <testcase classname="io.michaelcane.CalculatorSpec" name="test$squareRoot" time="0.012">
+  <testcase classname="io.michaelcane.CalculatorTest" name="test$squareRoot" time="0.012">
     <error type="java.lang.StackOverflowError">java.lang.StackOverflowError
 	at io.michaelcane.Calculator.&lt;init&gt;(Calculator.java:6)
 	at io.michaelcane.Commands.&lt;init&gt;(Commands.java:5)
@@ -9314,7 +9314,7 @@
 	at io.michaelcane.Commands.&lt;init&gt;(Commands.java:5)
 </error>
   </testcase>
-  <testcase classname="io.michaelcane.CalculatorSpec" name="test$inverseLogarithm" time="0.01">
+  <testcase classname="io.michaelcane.CalculatorTest" name="test$inverseLogarithm" time="0.01">
     <error type="java.lang.StackOverflowError">java.lang.StackOverflowError
 	at io.michaelcane.Calculator.&lt;init&gt;(Calculator.java:6)
 	at io.michaelcane.Commands.&lt;init&gt;(Commands.java:5)
@@ -10342,7 +10342,7 @@
 	at io.michaelcane.Commands.&lt;init&gt;(Commands.java:5)
 </error>
   </testcase>
-  <testcase classname="io.michaelcane.CalculatorSpec" name="test$inverseSine" time="0.009">
+  <testcase classname="io.michaelcane.CalculatorTest" name="test$inverseSine" time="0.009">
     <error type="java.lang.StackOverflowError">java.lang.StackOverflowError
 	at io.michaelcane.Calculator.&lt;init&gt;(Calculator.java:6)
 	at io.michaelcane.Commands.&lt;init&gt;(Commands.java:5)
@@ -11370,7 +11370,7 @@
 	at io.michaelcane.Commands.&lt;init&gt;(Commands.java:5)
 </error>
   </testcase>
-  <testcase classname="io.michaelcane.CalculatorSpec" name="cube" time="0.01">
+  <testcase classname="io.michaelcane.CalculatorTest" name="cube" time="0.01">
     <error type="java.lang.StackOverflowError">java.lang.StackOverflowError
 	at io.michaelcane.Calculator.&lt;init&gt;(Calculator.java:6)
 	at io.michaelcane.Commands.&lt;init&gt;(Commands.java:5)
@@ -12398,7 +12398,7 @@
 	at io.michaelcane.Commands.&lt;init&gt;(Commands.java:5)
 </error>
   </testcase>
-  <testcase classname="io.michaelcane.CalculatorSpec" name="test$cosin" time="0.01">
+  <testcase classname="io.michaelcane.CalculatorTest" name="test$cosin" time="0.01">
     <error type="java.lang.StackOverflowError">java.lang.StackOverflowError
 	at io.michaelcane.Calculator.&lt;init&gt;(Calculator.java:6)
 	at io.michaelcane.Commands.&lt;init&gt;(Commands.java:5)
@@ -13426,7 +13426,7 @@
 	at io.michaelcane.Commands.&lt;init&gt;(Commands.java:5)
 </error>
   </testcase>
-  <testcase classname="io.michaelcane.CalculatorSpec" name="test$naturalLogarithm" time="0.009">
+  <testcase classname="io.michaelcane.CalculatorTest" name="test$naturalLogarithm" time="0.009">
     <error type="java.lang.StackOverflowError">java.lang.StackOverflowError
 	at io.michaelcane.Calculator.&lt;init&gt;(Calculator.java:6)
 	at io.michaelcane.Commands.&lt;init&gt;(Commands.java:5)
@@ -14454,7 +14454,7 @@
 	at io.michaelcane.Commands.&lt;init&gt;(Commands.java:5)
 </error>
   </testcase>
-  <testcase classname="io.michaelcane.CalculatorSpec" name="test$logarithm" time="0.01">
+  <testcase classname="io.michaelcane.CalculatorTest" name="test$logarithm" time="0.01">
     <error type="java.lang.StackOverflowError">java.lang.StackOverflowError
 	at io.michaelcane.Calculator.&lt;init&gt;(Calculator.java:6)
 	at io.michaelcane.Commands.&lt;init&gt;(Commands.java:5)
@@ -15482,7 +15482,7 @@
 	at io.michaelcane.Commands.&lt;init&gt;(Commands.java:5)
 </error>
   </testcase>
-  <testcase classname="io.michaelcane.CalculatorSpec" name="test$subract" time="0.009">
+  <testcase classname="io.michaelcane.CalculatorTest" name="test$subract" time="0.009">
     <error type="java.lang.StackOverflowError">java.lang.StackOverflowError
 	at io.michaelcane.Calculator.&lt;init&gt;(Calculator.java:6)
 	at io.michaelcane.Commands.&lt;init&gt;(Commands.java:5)
@@ -16510,7 +16510,7 @@
 	at io.michaelcane.Commands.&lt;init&gt;(Commands.java:5)
 </error>
   </testcase>
-  <testcase classname="io.michaelcane.CalculatorSpec" name="test$variableExponentiation" time="0.009">
+  <testcase classname="io.michaelcane.CalculatorTest" name="test$variableExponentiation" time="0.009">
     <error type="java.lang.StackOverflowError">java.lang.StackOverflowError
 	at io.michaelcane.Calculator.&lt;init&gt;(Calculator.java:6)
 	at io.michaelcane.Commands.&lt;init&gt;(Commands.java:5)
@@ -17538,7 +17538,7 @@
 	at io.michaelcane.Commands.&lt;init&gt;(Commands.java:5)
 </error>
   </testcase>
-  <testcase classname="io.michaelcane.CalculatorSpec" name="test$tangent" time="0.009">
+  <testcase classname="io.michaelcane.CalculatorTest" name="test$tangent" time="0.009">
     <error type="java.lang.StackOverflowError">java.lang.StackOverflowError
 	at io.michaelcane.Calculator.&lt;init&gt;(Calculator.java:6)
 	at io.michaelcane.Commands.&lt;init&gt;(Commands.java:5)
@@ -18566,7 +18566,7 @@
 	at io.michaelcane.Commands.&lt;init&gt;(Commands.java:5)
 </error>
   </testcase>
-  <testcase classname="io.michaelcane.CalculatorSpec" name="test$inverseNaturalLog" time="0.01">
+  <testcase classname="io.michaelcane.CalculatorTest" name="test$inverseNaturalLog" time="0.01">
     <error type="java.lang.StackOverflowError">java.lang.StackOverflowError
 	at io.michaelcane.Calculator.&lt;init&gt;(Calculator.java:6)
 	at io.michaelcane.Commands.&lt;init&gt;(Commands.java:5)
@@ -19594,7 +19594,7 @@
 	at io.michaelcane.Commands.&lt;init&gt;(Commands.java:5)
 </error>
   </testcase>
-  <testcase classname="io.michaelcane.CalculatorSpec" name="test$factorial" time="0.009">
+  <testcase classname="io.michaelcane.CalculatorTest" name="test$factorial" time="0.009">
     <error type="java.lang.StackOverflowError">java.lang.StackOverflowError
 	at io.michaelcane.Calculator.&lt;init&gt;(Calculator.java:6)
 	at io.michaelcane.Commands.&lt;init&gt;(Commands.java:5)
