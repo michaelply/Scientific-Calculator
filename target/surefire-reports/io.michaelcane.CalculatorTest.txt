@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: io.michaelcane.CalculatorTest
 -------------------------------------------------------------------------------
-Tests run: 20, Failures: 0, Errors: 20, Skipped: 0, Time elapsed: 0.266 sec <<< FAILURE!
-test$inverseTangent(io.michaelcane.CalculatorTest)  Time elapsed: 0.022 sec  <<< ERROR!
+Tests run: 20, Failures: 0, Errors: 20, Skipped: 0, Time elapsed: 0.318 sec <<< FAILURE!
+test$inverseTangent(io.michaelcane.CalculatorTest)  Time elapsed: 0.021 sec  <<< ERROR!
 java.lang.StackOverflowError
 	at io.michaelcane.Calculator.<init>(Calculator.java:6)
 	at io.michaelcane.Commands.<init>(Commands.java:5)
@@ -1029,7 +1029,7 @@ java.lang.StackOverflowError
 	at io.michaelcane.Calculator.<init>(Calculator.java:6)
 	at io.michaelcane.Commands.<init>(Commands.java:5)
 
-test$divide(io.michaelcane.CalculatorTest)  Time elapsed: 0.006 sec  <<< ERROR!
+test$divide(io.michaelcane.CalculatorTest)  Time elapsed: 0.005 sec  <<< ERROR!
 java.lang.StackOverflowError
 	at io.michaelcane.Calculator.<init>(Calculator.java:6)
 	at io.michaelcane.Commands.<init>(Commands.java:5)
@@ -2056,7 +2056,7 @@ java.lang.StackOverflowError
 	at io.michaelcane.Calculator.<init>(Calculator.java:6)
 	at io.michaelcane.Commands.<init>(Commands.java:5)
 
-test$multiply(io.michaelcane.CalculatorTest)  Time elapsed: 0.018 sec  <<< ERROR!
+test$multiply(io.michaelcane.CalculatorTest)  Time elapsed: 0.019 sec  <<< ERROR!
 java.lang.StackOverflowError
 	at io.michaelcane.Calculator.<init>(Calculator.java:6)
 	at io.michaelcane.Commands.<init>(Commands.java:5)
@@ -3083,7 +3083,7 @@ java.lang.StackOverflowError
 	at io.michaelcane.Calculator.<init>(Calculator.java:6)
 	at io.michaelcane.Commands.<init>(Commands.java:5)
 
-test$sin(io.michaelcane.CalculatorTest)  Time elapsed: 0.013 sec  <<< ERROR!
+test$sin(io.michaelcane.CalculatorTest)  Time elapsed: 0.011 sec  <<< ERROR!
 java.lang.StackOverflowError
 	at io.michaelcane.Calculator.<init>(Calculator.java:6)
 	at io.michaelcane.Commands.<init>(Commands.java:5)
@@ -5137,7 +5137,7 @@ java.lang.StackOverflowError
 	at io.michaelcane.Calculator.<init>(Calculator.java:6)
 	at io.michaelcane.Commands.<init>(Commands.java:5)
 
-test$inverseCosin(io.michaelcane.CalculatorTest)  Time elapsed: 0.01 sec  <<< ERROR!
+test$inverseCosin(io.michaelcane.CalculatorTest)  Time elapsed: 0.011 sec  <<< ERROR!
 java.lang.StackOverflowError
 	at io.michaelcane.Calculator.<init>(Calculator.java:6)
 	at io.michaelcane.Commands.<init>(Commands.java:5)
@@ -9245,9 +9245,8 @@ java.lang.StackOverflowError
 	at io.michaelcane.Calculator.<init>(Calculator.java:6)
 	at io.michaelcane.Commands.<init>(Commands.java:5)
 
-test$inverseLogarithm(io.michaelcane.CalculatorTest)  Time elapsed: 0.01 sec  <<< ERROR!
+test$inverseLogarithm(io.michaelcane.CalculatorTest)  Time elapsed: 0.017 sec  <<< ERROR!
 java.lang.StackOverflowError
-	at io.michaelcane.Calculator.<init>(Calculator.java:6)
 	at io.michaelcane.Commands.<init>(Commands.java:5)
 	at io.michaelcane.Calculator.<init>(Calculator.java:6)
 	at io.michaelcane.Commands.<init>(Commands.java:5)
@@ -10271,10 +10270,10 @@ java.lang.StackOverflowError
 	at io.michaelcane.Commands.<init>(Commands.java:5)
 	at io.michaelcane.Calculator.<init>(Calculator.java:6)
 	at io.michaelcane.Commands.<init>(Commands.java:5)
+	at io.michaelcane.Calculator.<init>(Calculator.java:6)
 
-test$inverseSine(io.michaelcane.CalculatorTest)  Time elapsed: 0.009 sec  <<< ERROR!
+test$inverseSine(io.michaelcane.CalculatorTest)  Time elapsed: 0.016 sec  <<< ERROR!
 java.lang.StackOverflowError
-	at io.michaelcane.Calculator.<init>(Calculator.java:6)
 	at io.michaelcane.Commands.<init>(Commands.java:5)
 	at io.michaelcane.Calculator.<init>(Calculator.java:6)
 	at io.michaelcane.Commands.<init>(Commands.java:5)
@@ -11298,10 +11297,10 @@ java.lang.StackOverflowError
 	at io.michaelcane.Commands.<init>(Commands.java:5)
 	at io.michaelcane.Calculator.<init>(Calculator.java:6)
 	at io.michaelcane.Commands.<init>(Commands.java:5)
+	at io.michaelcane.Calculator.<init>(Calculator.java:6)
 
-cube(io.michaelcane.CalculatorTest)  Time elapsed: 0.01 sec  <<< ERROR!
+cube(io.michaelcane.CalculatorTest)  Time elapsed: 0.015 sec  <<< ERROR!
 java.lang.StackOverflowError
-	at io.michaelcane.Calculator.<init>(Calculator.java:6)
 	at io.michaelcane.Commands.<init>(Commands.java:5)
 	at io.michaelcane.Calculator.<init>(Calculator.java:6)
 	at io.michaelcane.Commands.<init>(Commands.java:5)
@@ -12325,10 +12324,10 @@ java.lang.StackOverflowError
 	at io.michaelcane.Commands.<init>(Commands.java:5)
 	at io.michaelcane.Calculator.<init>(Calculator.java:6)
 	at io.michaelcane.Commands.<init>(Commands.java:5)
+	at io.michaelcane.Calculator.<init>(Calculator.java:6)
 
-test$cosin(io.michaelcane.CalculatorTest)  Time elapsed: 0.01 sec  <<< ERROR!
+test$cosin(io.michaelcane.CalculatorTest)  Time elapsed: 0.015 sec  <<< ERROR!
 java.lang.StackOverflowError
-	at io.michaelcane.Calculator.<init>(Calculator.java:6)
 	at io.michaelcane.Commands.<init>(Commands.java:5)
 	at io.michaelcane.Calculator.<init>(Calculator.java:6)
 	at io.michaelcane.Commands.<init>(Commands.java:5)
@@ -13352,10 +13351,10 @@ java.lang.StackOverflowError
 	at io.michaelcane.Commands.<init>(Commands.java:5)
 	at io.michaelcane.Calculator.<init>(Calculator.java:6)
 	at io.michaelcane.Commands.<init>(Commands.java:5)
+	at io.michaelcane.Calculator.<init>(Calculator.java:6)
 
-test$naturalLogarithm(io.michaelcane.CalculatorTest)  Time elapsed: 0.009 sec  <<< ERROR!
+test$naturalLogarithm(io.michaelcane.CalculatorTest)  Time elapsed: 0.015 sec  <<< ERROR!
 java.lang.StackOverflowError
-	at io.michaelcane.Calculator.<init>(Calculator.java:6)
 	at io.michaelcane.Commands.<init>(Commands.java:5)
 	at io.michaelcane.Calculator.<init>(Calculator.java:6)
 	at io.michaelcane.Commands.<init>(Commands.java:5)
@@ -14379,10 +14378,10 @@ java.lang.StackOverflowError
 	at io.michaelcane.Commands.<init>(Commands.java:5)
 	at io.michaelcane.Calculator.<init>(Calculator.java:6)
 	at io.michaelcane.Commands.<init>(Commands.java:5)
+	at io.michaelcane.Calculator.<init>(Calculator.java:6)
 
-test$logarithm(io.michaelcane.CalculatorTest)  Time elapsed: 0.01 sec  <<< ERROR!
+test$logarithm(io.michaelcane.CalculatorTest)  Time elapsed: 0.015 sec  <<< ERROR!
 java.lang.StackOverflowError
-	at io.michaelcane.Calculator.<init>(Calculator.java:6)
 	at io.michaelcane.Commands.<init>(Commands.java:5)
 	at io.michaelcane.Calculator.<init>(Calculator.java:6)
 	at io.michaelcane.Commands.<init>(Commands.java:5)
@@ -15406,10 +15405,10 @@ java.lang.StackOverflowError
 	at io.michaelcane.Commands.<init>(Commands.java:5)
 	at io.michaelcane.Calculator.<init>(Calculator.java:6)
 	at io.michaelcane.Commands.<init>(Commands.java:5)
+	at io.michaelcane.Calculator.<init>(Calculator.java:6)
 
-test$subract(io.michaelcane.CalculatorTest)  Time elapsed: 0.009 sec  <<< ERROR!
+test$subract(io.michaelcane.CalculatorTest)  Time elapsed: 0.015 sec  <<< ERROR!
 java.lang.StackOverflowError
-	at io.michaelcane.Calculator.<init>(Calculator.java:6)
 	at io.michaelcane.Commands.<init>(Commands.java:5)
 	at io.michaelcane.Calculator.<init>(Calculator.java:6)
 	at io.michaelcane.Commands.<init>(Commands.java:5)
@@ -16433,10 +16432,10 @@ java.lang.StackOverflowError
 	at io.michaelcane.Commands.<init>(Commands.java:5)
 	at io.michaelcane.Calculator.<init>(Calculator.java:6)
 	at io.michaelcane.Commands.<init>(Commands.java:5)
+	at io.michaelcane.Calculator.<init>(Calculator.java:6)
 
-test$variableExponentiation(io.michaelcane.CalculatorTest)  Time elapsed: 0.009 sec  <<< ERROR!
+test$variableExponentiation(io.michaelcane.CalculatorTest)  Time elapsed: 0.014 sec  <<< ERROR!
 java.lang.StackOverflowError
-	at io.michaelcane.Calculator.<init>(Calculator.java:6)
 	at io.michaelcane.Commands.<init>(Commands.java:5)
 	at io.michaelcane.Calculator.<init>(Calculator.java:6)
 	at io.michaelcane.Commands.<init>(Commands.java:5)
@@ -17460,10 +17459,10 @@ java.lang.StackOverflowError
 	at io.michaelcane.Commands.<init>(Commands.java:5)
 	at io.michaelcane.Calculator.<init>(Calculator.java:6)
 	at io.michaelcane.Commands.<init>(Commands.java:5)
+	at io.michaelcane.Calculator.<init>(Calculator.java:6)
 
-test$tangent(io.michaelcane.CalculatorTest)  Time elapsed: 0.009 sec  <<< ERROR!
+test$tangent(io.michaelcane.CalculatorTest)  Time elapsed: 0.015 sec  <<< ERROR!
 java.lang.StackOverflowError
-	at io.michaelcane.Calculator.<init>(Calculator.java:6)
 	at io.michaelcane.Commands.<init>(Commands.java:5)
 	at io.michaelcane.Calculator.<init>(Calculator.java:6)
 	at io.michaelcane.Commands.<init>(Commands.java:5)
@@ -18487,10 +18486,10 @@ java.lang.StackOverflowError
 	at io.michaelcane.Commands.<init>(Commands.java:5)
 	at io.michaelcane.Calculator.<init>(Calculator.java:6)
 	at io.michaelcane.Commands.<init>(Commands.java:5)
+	at io.michaelcane.Calculator.<init>(Calculator.java:6)
 
-test$inverseNaturalLog(io.michaelcane.CalculatorTest)  Time elapsed: 0.01 sec  <<< ERROR!
+test$inverseNaturalLog(io.michaelcane.CalculatorTest)  Time elapsed: 0.014 sec  <<< ERROR!
 java.lang.StackOverflowError
-	at io.michaelcane.Calculator.<init>(Calculator.java:6)
 	at io.michaelcane.Commands.<init>(Commands.java:5)
 	at io.michaelcane.Calculator.<init>(Calculator.java:6)
 	at io.michaelcane.Commands.<init>(Commands.java:5)
@@ -19514,10 +19513,10 @@ java.lang.StackOverflowError
 	at io.michaelcane.Commands.<init>(Commands.java:5)
 	at io.michaelcane.Calculator.<init>(Calculator.java:6)
 	at io.michaelcane.Commands.<init>(Commands.java:5)
+	at io.michaelcane.Calculator.<init>(Calculator.java:6)
 
-test$factorial(io.michaelcane.CalculatorTest)  Time elapsed: 0.009 sec  <<< ERROR!
+test$factorial(io.michaelcane.CalculatorTest)  Time elapsed: 0.014 sec  <<< ERROR!
 java.lang.StackOverflowError
-	at io.michaelcane.Calculator.<init>(Calculator.java:6)
 	at io.michaelcane.Commands.<init>(Commands.java:5)
 	at io.michaelcane.Calculator.<init>(Calculator.java:6)
 	at io.michaelcane.Commands.<init>(Commands.java:5)
@@ -20541,4 +20540,5 @@ java.lang.StackOverflowError
 	at io.michaelcane.Commands.<init>(Commands.java:5)
 	at io.michaelcane.Calculator.<init>(Calculator.java:6)
 	at io.michaelcane.Commands.<init>(Commands.java:5)
+	at io.michaelcane.Calculator.<init>(Calculator.java:6)
 
