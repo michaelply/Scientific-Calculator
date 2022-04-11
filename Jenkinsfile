@@ -13,7 +13,7 @@ pipeline {
         }
         post {
             always {
-                junit testResults: '**/target/surefire-reports/TEST-*.xml', skipPublishingChecks: true
+                junit testResults: '**/target/surefire-reports/TEST-*.xml', skipPublishingChecks: true, allowEmptyResults: true
             }
             success {
                 archiveArtifacts 'target/*.jar'
