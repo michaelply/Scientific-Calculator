@@ -13,7 +13,7 @@ pipeline {
         }
         post {
             always {
-                junit '**/target/reports/TEST-*.xml'
+                junit '**/target/reports/test_report.xml'
             }
             success {
                 archiveArtifacts 'target/*.jar'
