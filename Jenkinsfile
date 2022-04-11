@@ -4,38 +4,13 @@ pipeline {
         cron('H/5 * * * *')
     }
     stages {
-      stage("clean") {
-        agent any
-        steps {
-            withSonarQubeEnv('mysonar') {
-                sh 'mvn clean'
-            }
-        }
-      }
-      stage("build") {
-        agent any
-        steps {
-            withSonarQubeEnv('mysonar') {
-                sh 'mvn package'
-            }
-        }
-      }
-      stage("test") {
-        agent any
-        steps {
-            withSonarQubeEnv('mysonar') {
-                sh 'mvn test'
-            }
-        }
-      }
-      stage("static analysis") {
+      stage("build & SonarQube analysis") {
         agent any
         steps {
             withSonarQubeEnv('mysonar') {
                 sh 'mvn clean package sonar:sonar'
             }
         }
-      }
         post {
             always {
                 junit testResults: '**/target/surefire-reports/TEST-*.xml', skipPublishingChecks: true, allowEmptyResults: true
@@ -44,5 +19,6 @@ pipeline {
                 archiveArtifacts 'target/*.jar'
             }
         }
+      }
     }
 }
